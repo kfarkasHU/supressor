@@ -17,7 +17,7 @@ export class ButtonComponent implements m.ClassComponent {
       `button${this.getButtonClass()}`,
       {
         "onclick": this.onClick,
-        "alt": this.tooltip,
+        "title": this.tooltip,
         "disabled": !this.isEnabled
       },
       this.label
