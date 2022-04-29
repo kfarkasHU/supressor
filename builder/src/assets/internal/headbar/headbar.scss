@@ -1,3 +1,17 @@
 .supressor-container-content__headbar {
-  
+  height: 100%;
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+
+  &-action-buttons {
+    gap: 4px;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  &-theme-selector {
+
+  }
+
 }
