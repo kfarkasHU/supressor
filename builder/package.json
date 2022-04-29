@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build:dev": "webpack",
-    "build:prod": "webpack",
+    "build:dev": "webpack --env development",
+    "build:prod": "webpack --env production",
     "serve": "webpack serve"
   },
   "dependencies": {
