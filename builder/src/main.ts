@@ -9,5 +9,3 @@ export function supressorBuilder(
   const target = ensureHtmlElement(targetElement);
   m.mount(target, new PageComponent());
 }
-
-document.addEventListener("DOMContentLoaded", () => { supressorBuilder(document.body); });

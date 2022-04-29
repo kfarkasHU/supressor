@@ -3,6 +3,11 @@ const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const configFn = (env, args) => {
+  
+  const entry = env.WEBPACK_SERVE
+    ? "./src/main-wrapper.ts"
+    : "./src/main.ts"
+  ;
   const mode = env.development
     ? "development"
     : "production"
@@ -12,7 +17,7 @@ const configFn = (env, args) => {
     : ".min"
   ;
   return {
-    entry: "./src/main.ts",
+    entry: entry,
     mode: mode,
     module: {
       rules: [
