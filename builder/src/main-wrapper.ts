@@ -3,4 +3,6 @@
  */
 import { supressorBuilder } from "./main";
 
+import "./styles-wrapper.scss";
+
 document.addEventListener("DOMContentLoaded", () => { supressorBuilder(document.body); });
