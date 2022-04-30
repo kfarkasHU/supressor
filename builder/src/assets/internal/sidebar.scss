@@ -15,4 +15,17 @@
     height: 100%;
     cursor: w-resize;
   }
+
+  &-content {
+    width: 100%;
+
+    &--search {
+      display: flex;
+      padding: 16px 8px;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+    }
+  }
+
 }
