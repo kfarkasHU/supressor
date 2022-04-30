@@ -9,14 +9,13 @@
 
 /* BACKGROUND ANIMATION */
 .background-container {
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: -1;
+  width: 100%;
   height: 100%;
   position: absolute;
+  background-color: var(--background-animation-bgcolor);
 
   &-items {
     width: 100%;
@@ -31,7 +30,7 @@
       width: 1em;
       height: 1em;
       transform: translateY(100%);
-      background: #ebebeb;
+      background-color: var(--background-animation-fgcolor);
 
       @for $i from 1 to 128 {
         &:nth-child(#{$i}) {

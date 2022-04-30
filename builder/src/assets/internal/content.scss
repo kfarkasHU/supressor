@@ -3,16 +3,19 @@ $button-row-height: 40px;
 .supressor-container-content {
   width: 80%;
   height: 90%;
-  border: 1px solid black;
+  box-shadow: #0000003D 0px 3px 8px;
 
   background-color: white;
+
+  overflow: hidden;
 
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 
   &-headbar {
     height: $button-row-height;
-    border-bottom: 1px solid black;
+    background-color: var(--content-headbar-bgcolor);
+    border-bottom: 1px solid var(--content-headbar-border-color);
   }
 
   &-layout {

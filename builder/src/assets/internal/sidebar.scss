@@ -1,5 +1,7 @@
 .supressor-container-content__sidebar {
   width: 20%;
+  border-radius: inherit;
   padding-top: 8px;
-  border-right: 1px solid black;
+  background-color: var(--sidebar-bgcolor);
+  border-right: 1px solid var(--sidebar-border-color);
 }

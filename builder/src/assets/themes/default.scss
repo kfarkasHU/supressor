@@ -1,4 +1,52 @@
+$primary-color: red;
+$secondary-color: blue;
+$tertiary-color: green;
+
+$function-info: yellow;
+$function-warning: orange;
+$function-error: red;
+$function-success: green;
+
+$text-light: white;
+$text-dark: black;
+
+$general-dark: darkgrey;
+$general-light: lightgrey;
+
+/* GENERATED */
+$general-dark-100: lighten($general-dark, 40%);
+$general-dark-200: lighten($general-dark, 30%);
+$general-dark-300: lighten($general-dark, 20%);
+$general-dark-400: lighten($general-dark, 10%);
+$general-dark-500: $general-dark;
+$general-dark-600: darken($general-dark, 10%);
+$general-dark-700: darken($general-dark, 20%);
+$general-dark-800: darken($general-dark, 30%);
+$general-dark-900: darken($general-dark, 40%);
+
+$general-light-100: lighten($general-light, 40%);
+$general-light-200: lighten($general-light, 30%);
+$general-light-300: lighten($general-light, 20%);
+$general-light-400: lighten($general-light, 10%);
+$general-light-500: $general-light;
+$general-light-600: darken($general-light, 10%);
+$general-light-700: darken($general-light, 20%);
+$general-light-800: darken($general-light, 30%);
+$general-light-900: darken($general-light, 40%);
+
 :root {
+  /* BACKGROUND ANIMATION */
+  --background-animation-bgcolor: #{$general-light-500};
+  --background-animation-fgcolor: #{$general-dark-500};
+
+  /* CONTENT */
+  --content-headbar-border-color: #{$general-dark-500};
+  --content-headbar-bgcolor: #{$general-dark-900};
+
+  /* SIDEBAR */
+  --sidebar-border-color: #{$general-dark-500};
+  --sidebar-bgcolor: #{$general-light-400};
+
   /* BUTTONS */
   --button-primary: red;
   --button-primary--dark: darkred;
