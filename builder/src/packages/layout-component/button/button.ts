@@ -1,6 +1,6 @@
 import m from "mithril";
 
-export type ButtonType = "primary" | "secondary" | "action" | "cancel";
+export type ButtonType = "primary" | "secondary";
 
 export class ButtonComponent implements m.ClassComponent {
 
@@ -25,7 +25,7 @@ export class ButtonComponent implements m.ClassComponent {
   }
 
   private getButtonClass() {
-    return `.supressor-component__button--${this.type}`;
+    return `.supressor-component__button.supressor-component__button--${this.type}`;
   }
 
 }

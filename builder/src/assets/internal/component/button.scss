@@ -1,0 +1,23 @@
+$secondary-border-width: 1px;
+
+.supressor-component__button {
+  border: unset;
+  cursor: pointer;
+  height: 32px;
+  border-radius: var(--button-radius);
+  padding: var(--button-padding);
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &--primary {
+
+  }
+
+  &--secondary {
+    border: $secondary-border-width solid black;
+    inset: $secondary-border-width;
+  }
+
+}

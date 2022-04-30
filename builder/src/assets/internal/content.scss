@@ -1,3 +1,5 @@
+$button-row-height: 40px;
+
 .supressor-container-content {
   width: 80%;
   height: 90%;
@@ -9,12 +11,12 @@
   border-bottom-right-radius: 24px;
 
   &-headbar {
-    height: 36px;
+    height: $button-row-height;
     border-bottom: 1px solid black;
   }
 
   &-layout {
     display: flex;
-    height: calc(100% - 36px);
+    height: calc(100% - $button-row-height);
   }
 }
