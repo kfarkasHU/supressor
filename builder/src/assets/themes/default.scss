@@ -40,11 +40,10 @@ $general-light-900: darken($general-light, 40%);
   --background-animation-fgcolor: #{$general-dark-500};
 
   /* CONTENT */
-  --content-headbar-border-color: #{$general-dark-500};
   --content-headbar-bgcolor: #{$general-dark-900};
 
   /* SIDEBAR */
-  --sidebar-border-color: #{$general-dark-500};
+  --sidebar-border-color: #{$general-dark-900};
   --sidebar-bgcolor: #{$general-light-400};
 
   /* BUTTONS */

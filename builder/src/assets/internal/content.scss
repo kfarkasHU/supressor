@@ -15,7 +15,6 @@ $button-row-height: 40px;
   &-headbar {
     height: $button-row-height;
     background-color: var(--content-headbar-bgcolor);
-    border-bottom: 1px solid var(--content-headbar-border-color);
   }
 
   &-layout {

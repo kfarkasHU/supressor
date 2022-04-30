@@ -1,7 +1,18 @@
 .supressor-container-content__sidebar {
+  display: flex;
+  position: relative;
+
   width: 20%;
   border-radius: inherit;
-  padding-top: 8px;
   background-color: var(--sidebar-bgcolor);
-  border-right: 1px solid var(--sidebar-border-color);
+
+  &::after {
+    content: '';
+    width: 2px;
+    background-color: var(--sidebar-border-color);
+    position: absolute;
+    right: 0;
+    height: 100%;
+    cursor: w-resize;
+  }
 }
